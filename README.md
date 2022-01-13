@@ -4,10 +4,10 @@ Este projeto foi criado com o objetivo de facilitar o meu trabalho na importaç�
 
 ### ALGUMAS INFORMAÇÕES DO PROJETO
 
-- Laravel 8;
+- Laravel versão 8;
+- Node versão 14.17.5;
 - Integração com Laravel-AdminLTE: https://github.com/jeroennoten/Laravel-AdminLTE;
 - Banco de dados SQLite ;
-- Mudado autenticação para "name" no lugar de "email"];
 - Instalado o pacote Laravel Excel: https://laravel-excel.com;
 
 ### A QUEM POSSA INTERESSAR
@@ -15,4 +15,4 @@ Este projeto foi criado com o objetivo de facilitar o meu trabalho na importaç�
 Para utilizá-lo (após clonar) será necessário:
 - Instalar os pacotes do PHP e NODE por meio dos comandos: "composer install" e "npm install && npm run dev";
 - Renomear o arquivo ".env.example" para ".env";
-- Dados de login => usuário: admin | Senha: 123456;
+- Dados de login => usuário: admin@email.com | Senha: 123456;
