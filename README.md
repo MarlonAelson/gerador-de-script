@@ -12,7 +12,10 @@ Este projeto foi criado com o objetivo de facilitar o meu trabalho na importaç�
 
 ### A QUEM POSSA INTERESSAR
 
-Para utilizá-lo (após clonar) será necessário:
-- Instalar os pacotes do PHP e NODE por meio dos comandos: "composer install" e "npm install && npm run dev";
+Para utilizá-lo (após clonar) será necessário ter o Composer e Node instalado no seu computador e seguir os passos abaixo:
+- Habilitar no PHP.INI a extensão gp;
+- Dentro da pasta do projeto pelo prompt de comando (CMD), instalar os pacotes do PHP e NODE com os comandos: "composer install" e "npm install && npm run dev";
 - Renomear o arquivo ".env.example" para ".env";
+- Dentro da pasta do projeto pelo prompt de comando (CMD), gerar chave do Laravel com o comando: "php artisan key:generate";
+- Dentro da pasta do projeto pelo prompt de comando (CMD), iniciar o servidor com o comando: "php artisan serve";
 - Dados de login => usuário: admin@email.com | Senha: 123456;
