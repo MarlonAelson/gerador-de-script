@@ -18,5 +18,4 @@ Para utilizá-lo (após clonar) será necessário ter o Composer e Node instalad
 - Renomear o arquivo ".env.example" para ".env";
 - Dentro da pasta do projeto pelo prompt de comando (CMD), gerar chave do Laravel com o comando: "php artisan key:generate";
 - Dentro da pasta do projeto pelo prompt de comando (CMD), iniciar o servidor com o comando: "php artisan serve". Caso deseje evitar está iniciando o servidor sempre pelo Laravel, realize uma configuração de servidor através do xampp, wampp, lampp, etc;
-- Dentro da pasta do projeto pelo prompt de comando (CMD), iniciar o servidor com o comando: "php artisan serve";
 - Abrir o navegador de sua preferência, digitar o endereco: localhost:8000 ou 127.0.0.1:8000, e logar na aplicação com os dados => email/usuario: admin@email.com | Senha: 123456;
